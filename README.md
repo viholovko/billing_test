@@ -26,7 +26,6 @@ A brief description of your project, what it does, and its purpose.
 - Docker
 - RSpec for testing
 - SimpleCov for code coverage
-- Any other relevant technologies or libraries
 
 ## Installation
 
@@ -38,8 +37,8 @@ A brief description of your project, what it does, and its purpose.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/viholovko/billing_test.git
+   cd billing_test
    ```
 
 2. Build the Docker containers:
@@ -94,6 +93,7 @@ To run the test suite, use the following command:
 ```bash
 docker-compose run app rspec
 ```
+Implemented SimpleCov for visibility of test coverage.
 
 ## Contributing
 
